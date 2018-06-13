@@ -8,6 +8,9 @@ header {
   position: fixed;
   height: 70px;
   width: 100%;
+  padding: 0 15px;
+  z-index: 1;
+
 }
 .logo {
   color: mediumaquamarine;
@@ -20,7 +23,7 @@ header {
 
 }
 header nav {
-  padding-right: 40px
+  padding-right: 60px
 }
 a {
   color:black;
@@ -29,6 +32,7 @@ a {
 
 /* Main Content */
 .content {
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   padding-top: 100px;
@@ -36,6 +40,7 @@ a {
   font-family: Georgia, Bitstream Charter;
   justify-content:center;
 }
+
  .headline {
    display: flex;
    width: 620px;
@@ -47,13 +52,13 @@ a {
 
 
 .story1 {
-
+  width: 300px;
   margin: 0 5px;
 
 }
 .story2 {
-
-  margin: 5px
+  width: 300px;
+  margin: 0 5px
 
 }
 
@@ -69,6 +74,16 @@ a {
   text-align: center;
   padding-bottom: 20px;
 }
+.bites {
+background-color: WhiteSmoke;
+font-family: Verdana, DejaVu Sans;
+font-size: 12px;
+color: DimGray;
+border-bottom: 1px solid black;
+padding:15px 20px;
+width: 200px
+}
+
 
 /* Images */
 
@@ -106,17 +121,60 @@ font-weight: bold;
 /*Columns */
 
 .largecolumn  {
+  display: flex;
   flex-direction: row;
   width: 630px;
-    }
+  height: 1100px;
+  flex-wrap: wrap;
+ }
 
 .mediumcolumn {
+  display: flex;
   width: 300px;
   flex-direction: column;
   padding: 10px 10px;
+  margin: 0 10px
   }
 
 .smallcolumn {
+  display: flex;
+  flex-direction: column;
   padding: 10px 0px;
   width: 240px;
+  margin: 0 10px
   }
+
+/*FOOTER*/
+.footer {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana, DejaVu Sans;
+  font-size: 12px;
+  height: 400px;
+}
+.bottomnav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:500px;
+}
+#footerlogo {
+  font-family: Georgia, Bitstream Charter;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
+}
+.bottomnav nav span {
+  padding: 0 5px;
+
+}
+.copyright{
+  width: 500px;
+
+  text-align: center;
+}
