@@ -1,0 +1,122 @@
+header {
+  display:flex;
+  border-bottom: 1px solid black;
+  align-items: center;
+  font-family: Verdana, DejaVu Sans;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+}
+.logo {
+  color: mediumaquamarine;
+  display: flex;
+  align-items: center;
+  flex-grow: 1
+}
+.logo span {
+  padding-left: 10px;
+
+}
+header nav {
+  padding-right: 40px
+}
+a {
+  color:black;
+}
+
+
+/* Main Content */
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  width: 1200px;
+  font-family: Georgia, Bitstream Charter;
+  justify-content:center;
+}
+ .headline {
+   display: flex;
+   width: 620px;
+   flex-direction: column;
+   margin: 0 5px;
+
+ }
+
+
+
+.story1 {
+
+  margin: 0 5px;
+
+}
+.story2 {
+
+  margin: 5px
+
+}
+
+.textstory{
+  font-size: 17px;
+  font-family: Georgia, Bitstream Charter;
+  color:black;
+}
+.news {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Images */
+
+
+#imagedecor {
+  font-family: Georgia, Bitstream Charter;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  display: flex;
+}
+
+.headlineimage {
+background-image: url(../resources/images/story-main.png);
+height: 300px;
+color:white;
+font-family: georgia,bitstream charter;
+font-size: 40px;
+font-weight: bold;
+}
+.fallimage {
+  background-image: url(../resources/images/fallseason.png);
+}
+.cameraimage{
+  background-image: url(../resources/images/cameraman.png);
+}
+.catimage {
+  background-image: url(../resources/images/catceo.png);
+}
+
+
+/*Columns */
+
+.largecolumn  {
+  flex-direction: row;
+  width: 630px;
+    }
+
+.mediumcolumn {
+  width: 300px;
+  flex-direction: column;
+  padding: 10px 10px;
+  }
+
+.smallcolumn {
+  padding: 10px 0px;
+  width: 240px;
+  }
